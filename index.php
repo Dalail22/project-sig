@@ -20,7 +20,7 @@
     }).addTo(map);
     L.geoJSON(kecamatan, { style: { color: 'blue', weight: 2 } }).addTo(map);
 
-    //puskesmas tambak
+    //puskesmas
 	let marker = L.marker([-7.6125345138605205, 109.40434621484617]).addTo(map);
     let = L.marker([-7.6085137311835505, 109.35021055130862]).addTo(map).bindPopup("<b>Puskesmas Sumpiuh</b>");
     let = L.marker([-7.592157565386409, 109.27237859351574]).addTo(map).bindPopup("<b>Puskesmas Kemranjen</b>");
